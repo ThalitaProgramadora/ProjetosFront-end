@@ -27,11 +27,11 @@ body {
     flex-flow:row;
     justify-content: center;
     background-color: rgb(176,196,222);
-    padding: 30px;
-    margin: 20px;
+  
   }
   #area-menu li{
-    padding: 15px
+    display: inline;
+    padding: 10px;
   }
   h1 {
 	color: #000000;
