@@ -1,10 +1,15 @@
 body {
-	font-size: 16px;
+	font-size: 17px;
 	font-family: "Trebuchet MS", Helvetica, sans-serif;
-	background: #B0C4DE;
+	background: #fcfcfc;
 }
 .center{
     text-align: center;
+}
+.text{
+  padding: 10px;
+  margin-left: 10px;
+  text-align: justify;
 }
 .container{
   display: flex;
@@ -12,11 +17,19 @@ body {
   justify-content: center;
   padding: 30px;
   margin: 20px;
-  background-color: rgb(248, 242, 246);
+  background-color: rgb(247, 223, 250);
+}
+.img-topo{
+  padding: 10px;
+  border-radius: 50%;
+  width: 230px;
+  height: 230px;
+  box-shadow: 10px 10px 10px 5px rgb(49, 49, 49);
+  
 }
 .container2{
     display: flex;
-    flex-flow:row-reverse;
+    flex-flow:row;
     justify-content: center;
     padding: 30px;
     margin: 20px;
@@ -26,20 +39,30 @@ body {
     display: flex;
     flex-flow:row;
     justify-content: center;
-    background-color: rgb(176,196,222);
-  
+    background-color: rgb(192, 166, 226);
+    padding: 30px;
+    margin: 20px;
   }
-  #area-menu li{
-    display: inline;
-    padding: 10px;
+  .container4{
+    display: outside;
+    flex-flow:row;
+    justify-content: center;
+    background-color: rgb(192, 166, 226);
+    padding: 30px;
+    margin: 20px;
+  }
+  .opc{
+    opacity: 0.6;
   }
   h1 {
 	color: #000000;
 	font-size: 2.5em;
+  text-align: center;
 }
 
 h2 {
 	color: #0B3861;
+  text-align: center;
 }
 /*
 **** Formatação do menu ****
@@ -49,21 +72,37 @@ a {
 }
 
 a:link, a:visited {
-	color: #a603bb;
+  padding: 20px;
 }
 
 a:hover {
 	text-decoration: underline;
 }
-
+#area-menu li{
+  display: inline;
+  padding: 10px;
+}
 #area-menu a:link, #area-menu a:visited {
-	color: #FFF;
+	color: rgb(10, 10, 10);
 	padding: 8px 12px;
 }
 
 #area-menu a:hover {
-	color: #000000;
-	background: #FFF;
+	color: #fcf5f5;
+	background: rgb(155, 3, 185);
 	text-decoration: none;
 	font-weight:bold;
+}
+.rodape{
+  display: flex;
+  flex-flow:row;
+  justify-content: center;
+  background-color: rgb(2, 19, 43);
+  color: #B0C4DE;
+ 
+}
+.tm-social{
+  width: 40px;
+  height: 40px;
+  padding: 20px;
 }
