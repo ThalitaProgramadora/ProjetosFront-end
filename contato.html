@@ -31,23 +31,19 @@
     </div>      
        <div class="container2">
         <form>
-            <div>
-                <label for="nome">Nome</label><br>
-                <input type="text" id="nome">
-            </div>
-            <div>
-                <label for="e-mail">E-mail</label><br>
-                <input type="email" id="e-mail">
-            </div>
-            <div>
-                <label for="assunto">Assunto</label><br>
-                <input type="text" id="assunto">
-            </div>
-            <div>
-                <label for="conteudo">Conteudo</label><br>
-            <textarea name="conteudo" id="conteudo" cols="60" rows="10"></textarea>
-            </div> 
-            <div>
+            
+                <label for="nome">Nome</label><br><br>
+                <input class="area" type="text" id="nome" onkeyup='validaNome()'>
+                
+                <div id="txtNome"></div>
+                <label for="email">E-mail</label><br><br>
+                <input class="area" type="email" id="email">
+                      
+                <label for="assunto">Assunto</label><br><br>
+                <input class="area" type="text" id="assunto">
+                <label for="conteudo">Conteudo</label>             
+            <textarea class="area" name="conteudo" id="conteudo" cols="60" rows="10"></textarea>
+        
                 <button>Enviar</button>
             </div>
         </form>
@@ -81,6 +77,6 @@
     </div>
    
   </footer>
-                 
+      <script src="assets/js/script.js"></script>           
 </body>
 </html>

@@ -35,6 +35,9 @@ body {
     margin: 20px;
     background-color: rgb(91, 4, 206);
   }
+  .area{
+    width: 100%;
+  }
   .container3{
     display: flex;
     flex-flow:row;
